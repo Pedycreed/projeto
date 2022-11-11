@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+body {
+  height: auto;
+  background-image: url("\src\assets\img\gradient_squares.png");
+}
+
+.class {
+  border-bottom: 1px solid red;
+  padding: 2em;
+  margin-bottom: 1em;
+}
+
+a.nav-link{
+  color: #E23237;
+  border-radius: 6px;
+}
+a.disabled{
+  color: gray;
+}
+a.nav-link:hover{
+  background-color: #E23237;
+  color: white;
+  border-radius: 6px;
+}
+
+main {
+  margin: 0 auto;
+  min-height: calc(100vh - 56px - 150px);
+}
